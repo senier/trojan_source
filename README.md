@@ -14,7 +14,7 @@ Stretched string attack using type `String`.
 
 ## `stretched_string_wide_string.adb`
 
-Stretched string attack using type `Wide_String`.
+Stretched string attack using type `Wide_String`.  See `stretched_string_wide_string.adb.svg` for hex dump of offending code points.
 
 ## `stretched_string_wide_string_gs.adb`
 
@@ -22,7 +22,7 @@ Stretched string attack against GNAT Studio using type `Wide_String`.
 
 ## `commenting_out.adb`
 
-Commenting out attack.
+Commenting out attack. See `commenting_out.adb.svg` for hex dump of offending code points.
 
 ## `homoglyphs.adb`
 
