@@ -1,5 +1,11 @@
 project Build is
-   for Main use ("main_orig.adb", "main_forged.adb", "main_forged_gs.adb", "comment_out.adb", "homogl.adb", "main_forged_string.adb");
+   for Main use   
+     ("commenting_out.adb",
+      "homoglyphs.adb",
+      "stretched_string_original.adb",
+      "stretched_string_string.adb",
+      "stretched_string_wide_string.adb",
+      "stretched_string_wide_string_gs.adb");
    for Object_Dir use "obj";
    for Create_Missing_Dirs use "true";
 end Build;

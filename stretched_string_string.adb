@@ -1,5 +1,5 @@
 with Ada.Text_IO; use Ada.Text_IO;
-procedure Main_Forged_String
+procedure Stretched_String_String
 is
    Unprivileged : constant String := "unpriv‮ ⁦ -- users are not allowed to proceed⁩ ⁦";
    function Authorized (Status : String) return Boolean
@@ -12,4 +12,4 @@ begin
       return;
    end if;
    Put_Line ("Privileged access granted!");
-end Main_Forged_String;
+end Stretched_String_String;

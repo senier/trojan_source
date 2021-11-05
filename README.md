@@ -1,3 +1,35 @@
+# Content
+
+Demonstration of the [Trojan Source attack](https://www.trojansource.codes/) on the Ada language.
+
+# Files
+
+## `stretched_string_original.adb`
+
+Unmodified string example.
+
+## `stretched_string_string.adb`
+
+Stretched string attack using type `String`.
+
+## `stretched_string_wide_string.adb`
+
+Stretched string attack using type `Wide_String`.
+
+## `stretched_string_wide_string_gs.adb`
+
+Stretched string attack against GNAT Studio using type `Wide_String`.
+
+## `commenting_out.adb`
+
+Commenting out attack.
+
+## `homoglyphs.adb`
+
+Homoglyphs attack.
+
+# Encoding of the offending code points
+
 Abbreviation  Code Point  UTF Encoding
 LRE           U+202a      e2 80 aa
 RLE           U+202b      e2 80 ab

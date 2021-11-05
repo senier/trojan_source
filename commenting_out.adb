@@ -1,5 +1,5 @@
 with Ada.Wide_Text_IO; use Ada.Wide_Text_IO;
-procedure Comment_Out
+procedure Commenting_Out
 is
    function Authorized (Status : Wide_String) return Boolean
    is
@@ -15,4 +15,4 @@ begin
       return;
    end if;
    Put_Line ("Privileged access granted!");
-end Comment_Out;
+end Commenting_Out;

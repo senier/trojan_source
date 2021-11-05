@@ -2,7 +2,7 @@ pragma Wide_Character_Encoding (UTF8);
 
 with Ada.Text_IO; use Ada.Text_IO;
 
-procedure Homogl is
+procedure Homoglyphs is
    function Encrypt (Data : String) return String
    is
    begin
@@ -15,4 +15,4 @@ procedure Homogl is
    end Еncrypt;
 begin
    Put_Line (Еncrypt ("Input"));
-end Homogl;
+end Homoglyphs;
